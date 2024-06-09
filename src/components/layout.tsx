@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   display: grid;
   gap: 2rem;
   grid-template-columns: 1fr 4fr;
-  padding: 5rem 0;
+  padding: 0;
   width: 100%;
   max-width: 144rem;
 `;
@@ -19,6 +19,7 @@ const Menu = styled.div`
   flex-direction: column;
   align-items: center;
   gap: 2rem;
+  padding: 5rem 0;
 `;
 
 const MenuItem = styled.div`
